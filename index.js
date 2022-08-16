@@ -11,7 +11,7 @@ for (let counter = 1; counter <=1; counter +=1) {
     let operator = prompt('Enter operator (+, -, * or / ): ');
 
     const secondNumber = +(prompt('Enter second number: '));
-        if (isNaN(firstNumber)) {
+        if (isNaN(secondNumber)) {
             alert("It's not a number");
             break;
         }
